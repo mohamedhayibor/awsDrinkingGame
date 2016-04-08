@@ -19,7 +19,7 @@ If you are hitting the AWS console a lot, what would be more than fun than guess
 
 When Tj made the joke, I was like: "Ok, it is time to get to work".
 
-See how well you can do. The good part is that all logos are made up of amazon boxes :smile:.
+See how well you can do. The good part is that all logos are made up of amazon boxes :smile:. Also note that the game doesn't end. So basically play until everybody has gone to bed or someone calls the ambulance.
 
 > No copyright right infringements on Amazon AWS's logos were intended.
 

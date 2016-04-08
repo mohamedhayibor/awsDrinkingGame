@@ -52,5 +52,3 @@ const images = {
 	"Machine Learning": "http://res.cloudinary.com/masteryoperation/image/upload/v1459974987/aws/MachineLearning.png",
 	"Lambda": "http://res.cloudinary.com/masteryoperation/image/upload/v1459974987/aws/Lambda.png"
 };
-
-export default images;
