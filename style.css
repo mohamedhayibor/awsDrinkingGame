@@ -1,0 +1,52 @@
+* {
+  margin: 0 auto;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+header {
+  font-family: palatino, constantia, sans-serif;
+  text-align: center;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 40px;
+  font-weight: bold;
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  padding: 30px 15px 30px 15px;
+  position: relative;
+}
+
+.banner {
+  text-align: center;
+  font-size: 15px;
+  font-family: constantia, sans-serif;
+  margin: 20px 0 20px 0;
+}
+
+.square {
+  width: 30%;
+  float: left;
+  background: white; /* set up to white by default because of some low quality pictures */
+  padding-bottom: 2%;
+  margin: 1.66%;
+}
+
+/* For ease-in */
+.square img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.square img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
