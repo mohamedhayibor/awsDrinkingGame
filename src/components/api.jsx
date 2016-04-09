@@ -61,8 +61,13 @@ function generateTiles() {
   // 6 is the number of tiles within the page
   // tiles become a 2darray of length (6)
   const tiles = Array(6);
-  for ( var i = 0; i < tiles.length; i++ ) {
-		tiles[i] = twoDimensionalArray[ Math.floor( Math.random() * twoDimensionalArray.length )]
+  for ( let i = 0; i < tiles.length; i++ ) {
+		let uniqueTile = twoDimensionalArray[ Math.floor( Math.random() * twoDimensionalArray.length )];
+		// while uniqueVal is already in array don't include it
+		while(tiles.indexOf(uniqueTile) > -1) {
+			uniqueTile = twoDimensionalArray[ Math.floor( Math.random() * twoDimensionalArray.length )];
+		}
+		tiles[i] = uniqueTile;
 	}
 	return tiles;
 }
