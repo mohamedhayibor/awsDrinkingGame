@@ -88,14 +88,11 @@ export default class Container extends React.Component {
 
 	checkAnswer(event) {
 		if (event.target.src === logoToGuess[1]) {
-			console.log('Bravo');
-
-
 			// forces complete reload of the page
 			document.location.reload(true)
 		} else {
-			console.log('try-again', event.target.src)
-
+			// completely removes the element from the dom
+			event.target.remove();
 		}
 	}
 
