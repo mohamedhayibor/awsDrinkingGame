@@ -3,7 +3,7 @@
 [AWS Drinking Game](http://mohamedhayibor.github.io/awsDrinkingGame/) ![](https://img.shields.io/badge/status-stable-green.svg)
 ----
 
-If you are hitting the AWS console a lot, what would be more than fun than guessing the different logos while getting wasted. So pressure off from the pain of programming and have fun with your fellow engineers or even play the game alone while getting sips of your favorite wine (or refreshment :smile:).
+If you are hitting the AWS console a lot, what would be more fun than guessing the different logos while getting wasted. So pressure off from the pain of programming and have fun with your fellow engineers or even play the game alone while getting sips of your favorite wine (or refreshment :smile:).
 
 Go ahead and play at [mohamedhayibor.github.io/awsDrinkingGame](http://mohamedhayibor.github.io/awsDrinkingGame/).
 
